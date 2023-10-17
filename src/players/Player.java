@@ -9,14 +9,14 @@ public class Player {
 
     public Player (String name){
         this.name = name;
-        this.buyNowPrice = rng.nextInt(700, 15000000);
+        this.buyNowPrice = rng.nextInt(15000000);
     }
 
     public String getName() {
         return name;
     }
 
-    public int getBuyNow() {
+    public int getBuyNowPrice() {
         return buyNowPrice;
     }
     
